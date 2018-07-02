@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444BAA0220E68E66000B1E1F /* SwiftCBOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FC20E68E65000B1E1F /* SwiftCBOR.framework */; };
+		444BAA0320E68E66000B1E1F /* SwiftCBOR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FC20E68E65000B1E1F /* SwiftCBOR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA0420E68E66000B1E1F /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FD20E68E65000B1E1F /* CommonCrypto.framework */; };
+		444BAA0520E68E66000B1E1F /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FD20E68E65000B1E1F /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA0620E68E66000B1E1F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FE20E68E65000B1E1F /* Alamofire.framework */; };
+		444BAA0720E68E66000B1E1F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FE20E68E65000B1E1F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA0820E68E66000B1E1F /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FF20E68E66000B1E1F /* secp256k1.framework */; };
+		444BAA0920E68E66000B1E1F /* secp256k1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BA9FF20E68E66000B1E1F /* secp256k1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA0A20E68E66000B1E1F /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BAA0020E68E66000B1E1F /* SwiftProtobuf.framework */; };
+		444BAA0B20E68E66000B1E1F /* SwiftProtobuf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BAA0020E68E66000B1E1F /* SwiftProtobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA0C20E68E66000B1E1F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444BAA0120E68E66000B1E1F /* SwiftyJSON.framework */; };
+		444BAA0D20E68E66000B1E1F /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444BAA0120E68E66000B1E1F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		444BAA1120E69421000B1E1F /* SawtoothProtobufs.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444BAA0F20E69421000B1E1F /* SawtoothProtobufs.pb.swift */; };
+		444BAA1220E69421000B1E1F /* SawtoothClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444BAA1020E69421000B1E1F /* SawtoothClient.swift */; };
 		44B1227420E5137D0096AA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1227320E5137D0096AA67 /* AppDelegate.swift */; };
 		44B1227620E5137D0096AA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1227520E5137D0096AA67 /* ViewController.swift */; };
 		44B1227920E5137D0096AA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B1227720E5137D0096AA67 /* Main.storyboard */; };
 		44B1227B20E5137E0096AA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B1227A20E5137E0096AA67 /* Assets.xcassets */; };
 		44B1227E20E5137E0096AA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B1227C20E5137E0096AA67 /* LaunchScreen.storyboard */; };
+		5577EB40B532018C16032E04 /* Pods_XOSwiftClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9425BBCACD5BF972C0B9D645 /* Pods_XOSwiftClient.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		444BAA0E20E68E66000B1E1F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				444BAA0520E68E66000B1E1F /* CommonCrypto.framework in Embed Frameworks */,
+				444BAA0720E68E66000B1E1F /* Alamofire.framework in Embed Frameworks */,
+				444BAA0D20E68E66000B1E1F /* SwiftyJSON.framework in Embed Frameworks */,
+				444BAA0B20E68E66000B1E1F /* SwiftProtobuf.framework in Embed Frameworks */,
+				444BAA0320E68E66000B1E1F /* SwiftCBOR.framework in Embed Frameworks */,
+				444BAA0920E68E66000B1E1F /* secp256k1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		444BA9FC20E68E65000B1E1F /* SwiftCBOR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCBOR.framework; path = Carthage/Build/iOS/SwiftCBOR.framework; sourceTree = "<group>"; };
+		444BA9FD20E68E65000B1E1F /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
+		444BA9FE20E68E65000B1E1F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		444BA9FF20E68E66000B1E1F /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = Carthage/Build/iOS/secp256k1.framework; sourceTree = "<group>"; };
+		444BAA0020E68E66000B1E1F /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
+		444BAA0120E68E66000B1E1F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		444BAA0F20E69421000B1E1F /* SawtoothProtobufs.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SawtoothProtobufs.pb.swift; sourceTree = "<group>"; };
+		444BAA1020E69421000B1E1F /* SawtoothClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SawtoothClient.swift; sourceTree = "<group>"; };
 		44B1227020E5137D0096AA67 /* XOSwiftClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XOSwiftClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B1227320E5137D0096AA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B1227520E5137D0096AA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +64,9 @@
 		44B1227A20E5137E0096AA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B1227D20E5137E0096AA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B1227F20E5137E0096AA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9425BBCACD5BF972C0B9D645 /* Pods_XOSwiftClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XOSwiftClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B244E9F44634396CA64AF227 /* Pods-XOSwiftClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOSwiftClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-XOSwiftClient/Pods-XOSwiftClient.release.xcconfig"; sourceTree = "<group>"; };
+		D2F7F51A43E64700E7347BC0 /* Pods-XOSwiftClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOSwiftClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XOSwiftClient/Pods-XOSwiftClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444BAA0220E68E66000B1E1F /* SwiftCBOR.framework in Frameworks */,
+				444BAA0A20E68E66000B1E1F /* SwiftProtobuf.framework in Frameworks */,
+				444BAA0820E68E66000B1E1F /* secp256k1.framework in Frameworks */,
+				444BAA0420E68E66000B1E1F /* CommonCrypto.framework in Frameworks */,
+				444BAA0C20E68E66000B1E1F /* SwiftyJSON.framework in Frameworks */,
+				5577EB40B532018C16032E04 /* Pods_XOSwiftClient.framework in Frameworks */,
+				444BAA0620E68E66000B1E1F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269A557056E77A2E9DB59E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9425BBCACD5BF972C0B9D645 /* Pods_XOSwiftClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44B1226720E5137D0096AA67 = {
 			isa = PBXGroup;
 			children = (
+				444BA9FE20E68E65000B1E1F /* Alamofire.framework */,
+				444BA9FD20E68E65000B1E1F /* CommonCrypto.framework */,
+				444BA9FF20E68E66000B1E1F /* secp256k1.framework */,
+				444BA9FC20E68E65000B1E1F /* SwiftCBOR.framework */,
+				444BAA0020E68E66000B1E1F /* SwiftProtobuf.framework */,
+				444BAA0120E68E66000B1E1F /* SwiftyJSON.framework */,
 				44B1227220E5137D0096AA67 /* XOSwiftClient */,
 				44B1227120E5137D0096AA67 /* Products */,
+				E9567A71DF1B2B56642D6FDA /* Pods */,
+				269A557056E77A2E9DB59E88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +122,8 @@
 		44B1227220E5137D0096AA67 /* XOSwiftClient */ = {
 			isa = PBXGroup;
 			children = (
+				444BAA1020E69421000B1E1F /* SawtoothClient.swift */,
+				444BAA0F20E69421000B1E1F /* SawtoothProtobufs.pb.swift */,
 				44B1227320E5137D0096AA67 /* AppDelegate.swift */,
 				44B1227520E5137D0096AA67 /* ViewController.swift */,
 				44B1227720E5137D0096AA67 /* Main.storyboard */,
@@ -64,6 +134,15 @@
 			path = XOSwiftClient;
 			sourceTree = "<group>";
 		};
+		E9567A71DF1B2B56642D6FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2F7F51A43E64700E7347BC0 /* Pods-XOSwiftClient.debug.xcconfig */,
+				B244E9F44634396CA64AF227 /* Pods-XOSwiftClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B1228220E5137E0096AA67 /* Build configuration list for PBXNativeTarget "XOSwiftClient" */;
 			buildPhases = (
+				948B3DF0FF4C5875B3765016 /* [CP] Check Pods Manifest.lock */,
 				44B1226C20E5137D0096AA67 /* Sources */,
 				44B1226D20E5137D0096AA67 /* Frameworks */,
 				44B1226E20E5137D0096AA67 /* Resources */,
+				5124542C320339828D0D9A21 /* [CP] Embed Pods Frameworks */,
+				444BAA0E20E68E66000B1E1F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +212,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5124542C320339828D0D9A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XOSwiftClient/Pods-XOSwiftClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BitcoinKit/BitcoinKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BitcoinKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XOSwiftClient/Pods-XOSwiftClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948B3DF0FF4C5875B3765016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XOSwiftClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44B1226C20E5137D0096AA67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444BAA1120E69421000B1E1F /* SawtoothProtobufs.pb.swift in Sources */,
 				44B1227620E5137D0096AA67 /* ViewController.swift in Sources */,
 				44B1227420E5137D0096AA67 /* AppDelegate.swift in Sources */,
+				444BAA1220E69421000B1E1F /* SawtoothClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +401,16 @@
 		};
 		44B1228320E5137E0096AA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F7F51A43E64700E7347BC0 /* Pods-XOSwiftClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 683BD9S7J4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Pods/**";
 				INFOPLIST_FILE = XOSwiftClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,10 +425,16 @@
 		};
 		44B1228420E5137E0096AA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B244E9F44634396CA64AF227 /* Pods-XOSwiftClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 683BD9S7J4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Pods/**";
 				INFOPLIST_FILE = XOSwiftClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

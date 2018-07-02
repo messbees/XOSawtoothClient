@@ -1,0 +1,8 @@
+github "SwiftyJSON/SwiftyJSON" ~> 4.0
+github "Alamofire/Alamofire" ~> 4.7
+github "myfreeweb/SwiftCBOR"
+github "apple/swift-protobuf"
+github "soffes/CommonCrypto"
+github "Boilertalk/secp256k1.swift"
+
+

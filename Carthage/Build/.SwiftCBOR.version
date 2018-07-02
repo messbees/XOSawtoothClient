@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.2.0",
+  "iOS" : [
+    {
+      "name" : "SwiftCBOR",
+      "hash" : "df5ea7978110ab905b2e7d3705a405102cdd1c1ea80f8b2de9dce34722db2a72"
+    }
+  ]
+}
